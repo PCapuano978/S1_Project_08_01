@@ -55,12 +55,12 @@ thead,
 thead tr {
     height: 60px;
 }
-
-th:first-of-type {
+tr:first-of-type th:first-of-type {
     font-size: 2em;
 }
 
-th:not(:first-of-type) {
-    background-color: transparent;
+td.cheat {
+    background: transparent;
     color: black;
+    text-align: center;
 }
