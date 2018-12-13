@@ -20,6 +20,8 @@ table {
     border: 5px solid gray;
 }
 
+/* Our first style rule has us change the background of all table elements to a gradiant that will progress to the bottom; starting with a shade of light blue transforming into the color black. */
+
 table th,
 table td {
     border: 3px solid gray;
@@ -27,11 +29,15 @@ table td {
     padding: 8px;
 }
 
+/* Both table heads and table cells within a table parent element are to be given a three pixel solid gray border, line height of one fourth em, and padding all around to eight pixels. */
+
 th {
     background-color: black;
     color: rgb(130, 210, 255);
     font-weight: normal;
 }
+
+/* All table head elements are given a black background, an rgb that represents a light blue shade, and have their font weight set to normal. */
 
 td {
     color: white;
@@ -39,15 +45,23 @@ td {
     text-align: top;
 }
 
+/* All table cells have a text color of white, a font size of point nine em, and have their text alinged to the top. */
+
+
 /* Column Styles */
 
 col#firstCol {
     width: 24%;
 }
 
+/* All col elements with the ID of "firstCol" have their width set to be twenty four percent. */
+
 col.dataCols {
     width: 19%;
 }
+
+/* All col elements with the now class of "data Cols" are given a width of nineteen percent. */
+
 
 /* Table Header Styles */
 
@@ -55,12 +69,19 @@ thead,
 thead tr {
     height: 60px;
 }
+
+/* Both table heads adn table rows within said heads are to have their height set to sixty pixels. */
+
 tr:first-of-type th:first-of-type {
     font-size: 2em;
 }
+
+/* Table rows and table heads to be the first of their type of element set by these psuedo style are given their font-size a value of two em. */
 
 td.cheat {
     background: transparent;
     color: black;
     text-align: center;
 }
+
+/* Table cells with the class of "cheat" (yes, I gave up on the book) are to have their background set to transparent while their text color is black, and the text is aligned in the center.  */
